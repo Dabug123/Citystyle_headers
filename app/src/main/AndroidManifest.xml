@@ -27,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
     <application
         android:allowBackup="false"
-        android:label="DU Headers"
+        android:label="CityStyle"
         android:icon="@mipmap/ic_launcher" >
         <activity
             android:name="com.dirtyunicorns.headers.BrowseHeaderActivity"
@@ -40,17 +40,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
             </intent-filter>
         </activity>
         <activity
-            android:name=".staydirty"
-            android:label="#StayDirty" >
-            <intent-filter>
-                <action android:name="org.omnirom.DaylightHeaderPack1" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".colorful"
-            android:label="Colorful" >
+            android:name=".citystyle"
+            android:label="CityStyle" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
 
